@@ -19,6 +19,7 @@ alias gcman="git commit --amend --no-edit"
 alias gpu="git push"
 alias gpuf="git push -f"
 alias gpuuo="git push -u origin"
+alias gpuod="git push origin --delete"
 
 alias gpl="git pull"
 alias gplf="git pull -f"
@@ -30,6 +31,7 @@ alias grba="git rebase --abort"
 alias gsh="git stash"
 alias gshl="git stash list"
 alias gshp="git stash pop"
+alias gshc="git stash clear"
 
 alias gad="git add"
  
@@ -52,7 +54,7 @@ alias gad="git add"
 # --- Flags ---
 # a - amend, abort
 # b - branch
-# c - continue
+# c - continue, clear
 # d - delete
 # f - force
 # l - list
