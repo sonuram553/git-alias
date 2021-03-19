@@ -2,7 +2,7 @@ alias gcl="git clone"
 alias gst="git status"
 
 alias glg="git log"
-alias glgo="git log --oneline"
+alias glgo="git log --oneline -10"
 
 alias gco="git checkout"
 alias gcob="git checkout -b"
@@ -34,6 +34,7 @@ alias gshp="git stash pop"
 alias gshc="git stash clear"
 
 alias gad="git add"
+alias grts="git restore --staged"
  
 
 # --- Abbreviations --- 
@@ -62,3 +63,4 @@ alias gad="git add"
 # n - no-edit
 # o - origin
 # p - pop
+# s - staged
