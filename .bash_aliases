@@ -32,8 +32,11 @@ alias gsh="git stash"
 alias gshl="git stash list"
 alias gshp="git stash pop"
 alias gshc="git stash clear"
+alias gsha="git stash apply"
 
 alias gad="git add"
+alias gfe="git fetch"
+alias gmg="git merge"
 alias grts="git restore --staged"
  
 
@@ -51,12 +54,13 @@ alias grts="git restore --staged"
 # pl - pull
 # rb - rebase
 # sh - stash
+# fe - fetch
 
 # --- Flags ---
-# a - amend, abort
+# a - amend, abort, apply
 # b - branch
 # c - continue, clear
-# d - delete
+# d - delete, drop
 # f - force
 # l - list
 # m - message
